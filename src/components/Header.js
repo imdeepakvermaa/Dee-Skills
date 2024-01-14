@@ -18,7 +18,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center gap-32 w-full px-4 h-20 text-white bg-gradient-to-b from-indigo-950 to-indigo-900 fixed">
+    <div className="flex justify-center items-center gap-32 w-full px-4 h-20 text-white bg-gradient-to-b from-black to-indigo-900 fixed">
       <div>
         <img className="w-32" src={logo} alt="" />
       </div>
@@ -54,7 +54,7 @@ const Header = () => {
         </ul>
       )}
 
-      <div className="hidden gap-5 md:flex">
+      <div className="hidden gap-10 md:flex">
         {btns.map(({ btn, btnname }) => (
           <button
             key={btn}
